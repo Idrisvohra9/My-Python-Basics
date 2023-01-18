@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To import the entire library and all the things in it:
 from tkinter import *
 
@@ -50,3 +51,10 @@ def Main():
     w.mainloop()
 
 Main()
+=======
+def give(n):
+    n+10
+    raise ValueError
+
+print(give(10))
+>>>>>>> 66ba5faed76c21bba0a6cb181bc8a77bae565f4f
