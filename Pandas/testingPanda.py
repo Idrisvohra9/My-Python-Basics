@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Creating a series 
-cols = [10,20,30]
+df = pd.read_json("test.json")
 
-print(pd.Series(cols, index=["a","b","c"]))
+print(df)

@@ -1,4 +1,4 @@
-# map() is a function that iters through the items of iterables(list, tuple) and returns a specified function on them.
+# map() is a function that iters through the items of iterables(list, tuple) and performs a specified function on them.
 
 # it takes two arguments :1st a function and 2nd an iterable
 # code 1: to make the INT in the list to Float.
