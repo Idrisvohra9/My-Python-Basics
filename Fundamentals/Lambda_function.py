@@ -9,6 +9,10 @@ print(x(5,5,10))
 def fun(n):
      return lambda a : a * n
 doubler= fun(2)# This becomes the value taken by the function parameter n.
+val = 7
+change_val = lambda val: val * 10
+print(change_val(val))
+print(val)
 tripler= fun(3)
 print(doubler(2))
 print(tripler(3))# 2,3 will be taken by the parameter of lambda a.

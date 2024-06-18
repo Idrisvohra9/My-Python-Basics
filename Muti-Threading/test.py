@@ -1,6 +1,5 @@
 import threading
 import tkinter as tk
-import time
 
 def create_window(title, x, y):
     # Create a new thread-safe tkinter window
